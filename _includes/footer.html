@@ -1,0 +1,32 @@
+<footer class="site-footer">
+	<div class='site-footer-contents flex-container'>
+		<div class="footer-left">
+			<ul class="plain">
+				<li>Aaron Sikes</li>
+				<li>
+					<a class="icon-link" href="https://github.com/FellowMD">
+						{% include github-icon.html %}
+						<span class="link">{{ site.github_username }}</span>
+					</a>
+				</li>
+				<li>
+					<a class="icon-link" href="https://twitter.com/{{ site.twitter_username }}">
+						{% include twitter-icon.html %} 
+						<span class="link">{{ site.twitter_username }}</span>
+					</a>
+				</li>
+				<!--<li>
+					subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+					</li>-->
+			</ul>
+		</div>
+		<div class="flex-grower"></div>
+		<div class="footer-right">
+			<p class="site-description">
+				raindrops launching vim,<br>
+				keystrokes falling on the sea
+			</p>
+		</div>
+
+	</div>
+</footer>

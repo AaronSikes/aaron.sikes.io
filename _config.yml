@@ -1,0 +1,18 @@
+# Site settings
+title: Thing.html
+email: >
+  <script type='text/javascript'>
+    /* stupid email harvesters can't even run js LOL */
+    var a='aaron', b='@sike', c='s.io';
+    document.write('<a href=\'mailto:'+a+b+c+'\'>'+a+b+c+'</a>');
+  </script>
+description: |
+  raindrops launching vim,
+  keystrokes falling on the sea
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://aaron.sikes.io" # the base hostname & protocol for your site
+twitter_username: AaronMSikes
+github_username:  FellowMD
+
+# Build settings
+markdown: kramdown
