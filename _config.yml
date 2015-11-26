@@ -11,8 +11,8 @@ description: |
   keystrokes falling on the sea
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://aaron.sikes.io" # the base hostname & protocol for your site
-twitter_username: AaronMSikes
-github_username:  FellowMD
+twitter_username: dr_spaniel
+github_username:  drspaniel
 
 # Build settings
 markdown: kramdown
