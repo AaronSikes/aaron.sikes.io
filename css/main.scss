@@ -158,6 +158,15 @@ ul {
   }
 }
 
+figure {
+  img {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #e8e9e9;
+    box-shadow: 4px 4px 8px #e8e9e9;
+  }
+}
+
 .headshot {
   width: 150px;
   height: 150px;
