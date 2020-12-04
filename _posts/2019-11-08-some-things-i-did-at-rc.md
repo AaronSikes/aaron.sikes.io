@@ -68,15 +68,16 @@ it for your entire OS configuration! That's NixOS.
 CRDTs, my wiki, and dreamy persistence
 --------------------------------------
 
-icalling card
-data laced
-offline
-deepest learning, most of batch.
-livepad prototype
-demo wiki
-offline-first storage
-service workers
+But I really spent the largest portion of my time on CRDTs, and their
+application to offline support and collaborative apps.
 
+I made a pretty cool wiki engine! The core algorithm is from the
+amazing writeup [Data Laced with History: Causal Trees & Operational
+CRDTs][data-laced].
+
+You can play with a live version [on Glitch][demo-wiki].
+
+I'll do a dedicated writeup sometime soon :)
 
 
 [rc]: https://recurse.com
@@ -84,3 +85,5 @@ service workers
 [too-many-lists]: https://rust-unofficial.github.io/too-many-lists/
 [tla]: https://en.wikipedia.org/wiki/TLA%2B
 [nixos]: https://nixos.org/
+[data-laced]: http://archagon.net/blog/2018/03/24/data-laced-with-history/
+[demo-wiki]: https://live-wiki-demo.glitch.me/
